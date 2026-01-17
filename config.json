@@ -1,0 +1,13 @@
+{
+  "project_title": "Code Review Queue",
+  "goal": "Measure review load and flag overdue changes.",
+  "entity_name": "review",
+  "amount_label": "files_changed",
+  "score_label": "complexity_score",
+  "categories": [
+    "backend",
+    "frontend",
+    "infra",
+    "docs"
+  ]
+}

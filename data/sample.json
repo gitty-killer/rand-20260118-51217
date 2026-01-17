@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "review-01",
+      "name": "review_01",
+      "category": "backend",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "review-02",
+      "name": "review_02",
+      "category": "frontend",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "review-03",
+      "name": "review_03",
+      "category": "infra",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "review-04",
+      "name": "review_04",
+      "category": "docs",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "review-05",
+      "name": "review_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "review-06",
+      "name": "review_06",
+      "category": "frontend",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "review-07",
+      "name": "review_07",
+      "category": "infra",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "review-08",
+      "name": "review_08",
+      "category": "docs",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "review-09",
+      "name": "review_09",
+      "category": "backend",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "review-10",
+      "name": "review_10",
+      "category": "frontend",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "review-11",
+      "name": "review_11",
+      "category": "infra",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "review-12",
+      "name": "review_12",
+      "category": "docs",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "review-12",
+    "issue_count": 1
+  }
+}
